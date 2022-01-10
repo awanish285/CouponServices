@@ -16,12 +16,13 @@ public class CouponRestController {
 	@Autowired
 	CouponRepo couponrepo;
 	
+	//this method is used to create the coupon
 	@RequestMapping(value="/coupons",method=RequestMethod.POST)
 	public Coupon create(@RequestBody Coupon coupon)
 	{
 		return couponrepo.save(coupon);
 	}
-	
+	//this method is used to get the coupon details
 	@RequestMapping(value="/coupons/{code}",method=RequestMethod.GET)
 	public Coupon getCoupon(@PathVariable("code") String code)
 	{
