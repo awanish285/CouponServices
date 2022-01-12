@@ -13,7 +13,7 @@ public class CouponservicesApplication {
 		
 		//this is used to encript the password.
 		BCryptPasswordEncoder passwordEncoder = new BCryptPasswordEncoder();
-		String password = "sunder";
+		String password = "bill@gmail.com";
 		String encodedPassword = passwordEncoder.encode(password);
 		System.out.println();
 		System.out.println("Password is         : " + password);
