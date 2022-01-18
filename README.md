@@ -6,7 +6,7 @@ This coupon services used by Create Product which provide coupon to discount on 
 
 
 #Technology
-Java,spring-data-jpa,springWeb
+Java,spring-data-jpa,springWeb,junit
 #Database.
 Mysql
 #Tools

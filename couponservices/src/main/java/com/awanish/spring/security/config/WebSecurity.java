@@ -17,11 +17,13 @@ public class WebSecurity extends WebSecurityConfigurerAdapter{
 	@Autowired
 	UserDetailServiceImpl userdetailsServices;
 	
+	
+	//this method is used to AuthenticationManagerBuilder provide valid user 
 	@Override
 	protected void configure(AuthenticationManagerBuilder auth) throws Exception {
 		auth.userDetailsService(userdetailsServices);
 	}
-	
+	//this method is used to given permisson to url by role
 	@Override
 	protected void configure(HttpSecurity http) throws Exception {
 		//http.httpBasic();
@@ -30,7 +32,7 @@ public class WebSecurity extends WebSecurityConfigurerAdapter{
 				.hasAnyRole("USER", "ADMIN").mvcMatchers(HttpMethod.POST, "/couponapi/coupons").hasRole("ADMIN")
 				.anyRequest().denyAll().and().csrf().disable();
 	}
-	
+	//this method is used to return object of BCryptPasswordEncoder
 	@Bean
 	public PasswordEncoder passwordEncoder()
 	{

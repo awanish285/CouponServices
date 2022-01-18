@@ -6,6 +6,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 @Controller
 public class CouponController {
 	
+	//this method is show the index page for login
 	@GetMapping("/")
 	public String index()
 	{
