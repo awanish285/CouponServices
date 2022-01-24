@@ -13,3 +13,18 @@ Mysql
 Spring-tool-suite,postman
 #projectmanagement
 Apache Maven
+
+
+#RestTemplate
+
+Rest Template is used to create applications that consume RESTful Web Services. 
+
+You can use the exchange() method to consume the web services for all HTTP methods. 
+
+
+You will have to follow the given points to consume the API −
+
+Autowired the Rest Template Object.
+Use HttpHeaders to set the Request Headers.
+Use HttpEntity to wrap the request object.
+Provide the URL, HttpMethod, and Return type for Exchange() method.
