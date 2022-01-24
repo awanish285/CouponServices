@@ -13,7 +13,7 @@ Mysql
 Spring-tool-suite,postman
 #projectmanagement
 Apache Maven
-
+======================================================================================================================================================
 
 #RestTemplate
 
@@ -28,3 +28,11 @@ Autowired the Rest Template Object.
 Use HttpHeaders to set the Request Headers.
 Use HttpEntity to wrap the request object.
 Provide the URL, HttpMethod, and Return type for Exchange() method.
+
+
+--------------------------------------------------------------------------------------------------------
+
+The REST application follows the REST architectural approach. We use the REST application for developing and designing networked applications. 
+It generates the HTTP request that performs CRUD operations on the data. Usually, it returns data in JSON or XML format.
+
+=====================================================================================================================================================
