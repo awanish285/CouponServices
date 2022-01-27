@@ -39,3 +39,11 @@ The REST application follows the REST architectural approach. We use the REST ap
 It generates the HTTP request that performs CRUD operations on the data. Usually, it returns data in JSON or XML format.
 
 =====================================================================================================================================================
+Stereotype Annotations
+Spring Framework provides us with some special annotations. 
+These annotations are used to create Spring beans automatically in the application context. 
+@Component annotation is the main Stereotype Annotation. There are some Stereotype meta-annotations which is derived from @Component those are
+
+@Service
+@Repository
+@Controller
