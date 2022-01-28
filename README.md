@@ -58,3 +58,5 @@ These annotations are used to create Spring beans automatically in the applicati
 
 
 =====================================================================================================================================================================================
+HTTP Methods
+For HTTP/1.1, the set of common methods are defined below. This set can be expanded based on the requirements. The name of these methods is case sensitive, and they must be used in uppercase.
