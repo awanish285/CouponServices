@@ -73,3 +73,20 @@ This method is the same as the GET method. It is used to transfer the status lin
 iii) POST
 
 The POST request sends the data to the server. For example, file upload, customer information, etc. using the HTML forms.
+
+
+iv) PUT
+
+The PUT method is used to replace all the current representations of the target resource with the uploaded content.
+
+v) DELETE
+
+The DELETE method is used to remove all the current representations of the target resource, which is given by URI.
+
+vi) CONNECT
+
+This method establishes a tunnel to the server, which is identified by a given URI.
+
+vii) OPTIONS
+
+This method describes the options of communication for the target resource.
