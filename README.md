@@ -60,3 +60,16 @@ These annotations are used to create Spring beans automatically in the applicati
 =====================================================================================================================================================================================
 HTTP Methods
 For HTTP/1.1, the set of common methods are defined below. This set can be expanded based on the requirements. The name of these methods is case sensitive, and they must be used in uppercase.
+
+Method and Description
+i) GET
+
+This method retrieves information from the given server using a given URI. 
+GET request can retrieve the data. It can not apply other effects on the data.
+
+ii) HEAD
+This method is the same as the GET method. It is used to transfer the status line and header section only.
+
+iii) POST
+
+The POST request sends the data to the server. For example, file upload, customer information, etc. using the HTML forms.
