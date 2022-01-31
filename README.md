@@ -90,3 +90,16 @@ This method establishes a tunnel to the server, which is identified by a given U
 vii) OPTIONS
 
 This method describes the options of communication for the target resource.
+
+
+=============================================================================================================================================
+@RequestMapping: 
+
+It is used to map the web requests. It has many optional elements like consumes, header, method, name, params, path, produces, and value. 
+We use it with the class as well as the method.
+
+@GetMapping: It maps the HTTP GET requests on the specific handler method. 
+It is used to create a web service endpoint that fetches It is used instead of using: @RequestMapping(method = RequestMethod.GET)
+
+
+=================================================================================================================================================
