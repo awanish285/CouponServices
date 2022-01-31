@@ -93,6 +93,8 @@ This method describes the options of communication for the target resource.
 
 
 =============================================================================================================================================
+Spring and spring boot annotation:
+
 @RequestMapping: 
 
 It is used to map the web requests. It has many optional elements like consumes, header, method, name, params, path, produces, and value. 
@@ -126,3 +128,11 @@ The optional elements of the annotation are name, required, value, defaultValue.
 We can use it multiple time in a method
 
 ==================================================================================================================================================
+@RestController: It can be considered as a combination of @Controller and @ResponseBody annotations. 
+The @RestController annotation is itself annotated with the @ResponseBody annotation. 
+It eliminates the need for annotating each method with @ResponseBody.
+
+@RequestAttribute: It binds a method parameter to request attribute. It provides convenient access to the request attributes from a controller method.
+ With the help of @RequestAttribute annotation, we can access objects that are populated on the server-side.
+ 
+ =========================================================================================================================================================================
