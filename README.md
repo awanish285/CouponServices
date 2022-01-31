@@ -101,5 +101,13 @@ We use it with the class as well as the method.
 @GetMapping: It maps the HTTP GET requests on the specific handler method. 
 It is used to create a web service endpoint that fetches It is used instead of using: @RequestMapping(method = RequestMethod.GET)
 
+@PostMapping: It maps the HTTP POST requests on the specific handler method. 
+It is used to create a web service endpoint that creates It is used instead of using: @RequestMapping(method = RequestMethod.POST)
+
+@PutMapping: It maps the HTTP PUT requests on the specific handler method. 
+It is used to create a web service endpoint that creates or updates It is used instead of using: @RequestMapping(method = RequestMethod.PUT)
+@DeleteMapping: It maps the HTTP DELETE requests on the specific handler method. It is used to create a web service endpoint that deletes a resource. It is used instead of using: @RequestMapping(method = RequestMethod.DELETE)
+@PatchMapping: It maps the HTTP PATCH requests on the specific handler method. It is used instead of using: @RequestMapping(method = RequestMethod.PATCH)
+
 
 =================================================================================================================================================
