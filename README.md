@@ -111,3 +111,10 @@ It is used to create a web service endpoint that creates or updates It is used i
 
 
 =================================================================================================================================================
+@RequestBody: It is used to bind HTTP request with an object in a method parameter. 
+Internally it uses HTTP MessageConverters to convert the body of the request. 
+When we annotate a method parameter with @RequestBody, the Spring framework binds the incoming HTTP request body to that parameter.
+
+@ResponseBody: It binds the method return value to the response body. 
+It tells the Spring Boot Framework to serialize a return an object into JSON and XML format.
+@PathVariable: It is used to extract the values from the URI. It is most suitable for the RESTful web service, where the URL contains a path variable. We can define multiple @PathVariable in a method.
