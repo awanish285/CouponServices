@@ -149,3 +149,15 @@ It is one of the unit testing framework. Current version is junit 4.
 To perform unit testing, we need to create test cases. The unit test case is a code which ensures that the program logic works as expected.
 
 ================================================================================================================================================================
+
+#Types of unit testing
+
+There are two ways to perform unit testing: 1) manual testing 2) automated testing.
+
+1) Manual Testing
+If you execute the test cases manually without any tool support, it is known as manual testing. It is time consuming and less reliable.
+
+2) Automated Testing
+If you execute the test cases by tool support, it is known as automated testing. It is fast and more reliable.
+
+=================================================================================================================================================================
