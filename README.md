@@ -39,7 +39,8 @@ The REST application follows the REST architectural approach. We use the REST ap
 It generates the HTTP request that performs CRUD operations on the data. Usually, it returns data in JSON or XML format.
 
 =====================================================================================================================================================
-Stereotype Annotations
+#Stereotype Annotations
+
 Spring Framework provides us with some special annotations. 
 These annotations are used to create Spring beans automatically in the application context. 
 @Component annotation is the main Stereotype Annotation. There are some Stereotype meta-annotations which is derived from @Component those are
@@ -58,7 +59,7 @@ These annotations are used to create Spring beans automatically in the applicati
 
 
 =====================================================================================================================================================================================
-HTTP Methods
+# HTTP Methods
 For HTTP/1.1, the set of common methods are defined below. This set can be expanded based on the requirements. The name of these methods is case sensitive, and they must be used in uppercase.
 
 Method and Description
@@ -93,7 +94,7 @@ This method describes the options of communication for the target resource.
 
 
 =============================================================================================================================================
-Spring and spring boot annotation:
+# Spring and spring boot annotation:
 
 @RequestMapping: 
 
@@ -136,3 +137,15 @@ It eliminates the need for annotating each method with @ResponseBody.
  With the help of @RequestAttribute annotation, we can access objects that are populated on the server-side.
  
  =========================================================================================================================================================================
+ 
+ #Junit Testing
+ 
+ JUnit tutorial provides basic and advanced concepts of unit testing in java with examples.
+ 
+ It is an open-source testing framework for java programmers. The java programmer can create test cases and test his/her own code.
+
+It is one of the unit testing framework. Current version is junit 4.
+
+To perform unit testing, we need to create test cases. The unit test case is a code which ensures that the program logic works as expected.
+
+================================================================================================================================================================
