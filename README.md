@@ -161,3 +161,15 @@ If you execute the test cases manually without any tool support, it is known as 
 If you execute the test cases by tool support, it is known as automated testing. It is fast and more reliable.
 
 =================================================================================================================================================================
+
+#Annotations for Junit testing
+
+The Junit 4.x framework is annotation based, so let's see the annotations that can be used while writing the test cases.
+
+@Test annotation specifies that method is the test method.
+
+@Test(timeout=1000) annotation specifies that method will be failed if it takes longer than 1000 milliseconds (1 second).
+
+@BeforeClass annotation specifies that method will be invoked only once, before starting all the tests.
+
+=======================================================================================================================================================
