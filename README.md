@@ -179,3 +179,16 @@ The Junit 4.x framework is annotation based, so let's see the annotations that c
 @After annotation specifies that method will be invoked after each test.
 
 @AfterClass annotation specifies that method will be invoked only once, after finishing all the tests.
+
+======================================================================================================================================================
+#Assert class
+The org.junit.Assert class provides methods to assert the program logic.
+
+# Methods of Assert class
+The common methods of Assert class are as follows:
+
+1) void assertEquals(boolean expected,boolean actual): checks that two primitives/objects are equal. It is overloaded.
+2) void assertTrue(boolean condition): checks that a condition is true.
+3) void assertFalse(boolean condition): checks that a condition is false.
+4) void assertNull(Object obj): checks that object is null.
+5) void assertNotNull(Object obj): checks that object is not null.
