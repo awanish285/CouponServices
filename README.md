@@ -173,3 +173,9 @@ The Junit 4.x framework is annotation based, so let's see the annotations that c
 @BeforeClass annotation specifies that method will be invoked only once, before starting all the tests.
 
 =======================================================================================================================================================
+
+@Before annotation specifies that method will be invoked before each test.
+
+@After annotation specifies that method will be invoked after each test.
+
+@AfterClass annotation specifies that method will be invoked only once, after finishing all the tests.
