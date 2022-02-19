@@ -98,25 +98,30 @@ This method describes the options of communication for the target resource.
 
 @RequestMapping: 
 
-It is used to map the web requests. It has many optional elements like consumes, header, method, name, params, path, produces, and value. 
+1) It is used to map the web requests. 
+2) It has many optional elements like consumes, header, method, name, params, path, produces, and value. 
 We use it with the class as well as the method.
 
-@GetMapping: It maps the HTTP GET requests on the specific handler method. 
-It is used to create a web service endpoint that fetches It is used instead of using: @RequestMapping(method = RequestMethod.GET)
+@GetMapping: 
+1) It maps the HTTP GET requests on the specific handler method. 
+2) It is used to create a web service endpoint that fetches It is used instead of using: @RequestMapping(method = RequestMethod.GET)
 
-@PostMapping: It maps the HTTP POST requests on the specific handler method. 
-It is used to create a web service endpoint that creates It is used instead of using: @RequestMapping(method = RequestMethod.POST)
+@PostMapping: 
+1) It maps the HTTP POST requests on the specific handler method. 
+2) It is used to create a web service endpoint that creates It is used instead of using: @RequestMapping(method = RequestMethod.POST)
 
-@PutMapping: It maps the HTTP PUT requests on the specific handler method. 
-It is used to create a web service endpoint that creates or updates It is used instead of using: @RequestMapping(method = RequestMethod.PUT)
+@PutMapping: 
+1) It maps the HTTP PUT requests on the specific handler method. 
+2) It is used to create a web service endpoint that creates or updates It is used instead of using: @RequestMapping(method = RequestMethod.PUT)
 @DeleteMapping: It maps the HTTP DELETE requests on the specific handler method. It is used to create a web service endpoint that deletes a resource. It is used instead of using: @RequestMapping(method = RequestMethod.DELETE)
 @PatchMapping: It maps the HTTP PATCH requests on the specific handler method. It is used instead of using: @RequestMapping(method = RequestMethod.PATCH)
 
 
 =================================================================================================================================================
-@RequestBody: It is used to bind HTTP request with an object in a method parameter. 
-Internally it uses HTTP MessageConverters to convert the body of the request. 
-When we annotate a method parameter with @RequestBody, the Spring framework binds the incoming HTTP request body to that parameter.
+@RequestBody: 
+1) It is used to bind HTTP request with an object in a method parameter. 
+2) Internally it uses HTTP MessageConverters to convert the body of the request. 
+3) When we annotate a method parameter with @RequestBody, the Spring framework binds the incoming HTTP request body to that parameter.
 
 @ResponseBody: It binds the method return value to the response body. 
 It tells the Spring Boot Framework to serialize a return an object into JSON and XML format.
@@ -140,13 +145,13 @@ It eliminates the need for annotating each method with @ResponseBody.
  
  #Junit Testing
  
- JUnit tutorial provides basic and advanced concepts of unit testing in java with examples.
+1) JUnit tutorial provides basic and advanced concepts of unit testing in java with examples.
  
- It is an open-source testing framework for java programmers. The java programmer can create test cases and test his/her own code.
+2) It is an open-source testing framework for java programmers. The java programmer can create test cases and test his/her own code.
 
-It is one of the unit testing framework. Current version is junit 4.
+3) It is one of the unit testing framework. Current version is junit 4.
 
-To perform unit testing, we need to create test cases. The unit test case is a code which ensures that the program logic works as expected.
+4) To perform unit testing, we need to create test cases. The unit test case is a code which ensures that the program logic works as expected.
 
 ================================================================================================================================================================
 
