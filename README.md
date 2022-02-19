@@ -134,12 +134,14 @@ The optional elements of the annotation are name, required, value, defaultValue.
 We can use it multiple time in a method
 
 ==================================================================================================================================================
-@RestController: It can be considered as a combination of @Controller and @ResponseBody annotations. 
-The @RestController annotation is itself annotated with the @ResponseBody annotation. 
-It eliminates the need for annotating each method with @ResponseBody.
+@RestController: 
+1) It can be considered as a combination of @Controller and @ResponseBody annotations. 
+2) The @RestController annotation is itself annotated with the @ResponseBody annotation. 
+3) It eliminates the need for annotating each method with @ResponseBody.
 
-@RequestAttribute: It binds a method parameter to request attribute. It provides convenient access to the request attributes from a controller method.
- With the help of @RequestAttribute annotation, we can access objects that are populated on the server-side.
+@RequestAttribute: 
+1) It binds a method parameter to request attribute. It provides convenient access to the request attributes from a controller method.
+2) With the help of @RequestAttribute annotation, we can access objects that are populated on the server-side.
  
  =========================================================================================================================================================================
  
@@ -179,11 +181,14 @@ The Junit 4.x framework is annotation based, so let's see the annotations that c
 
 =======================================================================================================================================================
 
-@Before annotation specifies that method will be invoked before each test.
+@Before 
+1) @Before annotation specifies that method will be invoked before each test.
 
-@After annotation specifies that method will be invoked after each test.
+@After 
+2)@After  annotation specifies that method will be invoked after each test.
 
-@AfterClass annotation specifies that method will be invoked only once, after finishing all the tests.
+@AfterClass 
+3) @AfterClass  annotation specifies that method will be invoked only once, after finishing all the tests.
 
 ======================================================================================================================================================
 #Assert class
