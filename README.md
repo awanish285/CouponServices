@@ -25,12 +25,12 @@ Rest Template is used to create applications that consume RESTful Web Services.
 You can use the exchange() method to consume the web services for all HTTP methods. 
 
 
-You will have to follow the given points to consume the API −
+#You will have to follow the given points to consume the API −
 
-Autowired the Rest Template Object.
-Use HttpHeaders to set the Request Headers.
-Use HttpEntity to wrap the request object.
-Provide the URL, HttpMethod, and Return type for Exchange() method.
+1) Autowired the Rest Template Object.
+2) Use HttpHeaders to set the Request Headers.
+3) Use HttpEntity to wrap the request object.
+4) Provide the URL, HttpMethod, and Return type for Exchange() method.
 
 
 --------------------------------------------------------------------------------------------------------
@@ -45,9 +45,9 @@ Spring Framework provides us with some special annotations.
 These annotations are used to create Spring beans automatically in the application context. 
 @Component annotation is the main Stereotype Annotation. There are some Stereotype meta-annotations which is derived from @Component those are
 
-@Service
-@Repository
-@Controller
+1) @Service
+2) @Repository
+3) @Controller
 
 
 
