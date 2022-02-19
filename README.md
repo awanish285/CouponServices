@@ -123,15 +123,20 @@ We use it with the class as well as the method.
 2) Internally it uses HTTP MessageConverters to convert the body of the request. 
 3) When we annotate a method parameter with @RequestBody, the Spring framework binds the incoming HTTP request body to that parameter.
 
-@ResponseBody: It binds the method return value to the response body. 
-It tells the Spring Boot Framework to serialize a return an object into JSON and XML format.
+@ResponseBody: 
+1) It binds the method return value to the response body. 
+2) It tells the Spring Boot Framework to serialize a return an object into JSON and XML format.
+
 @PathVariable: It is used to extract the values from the URI. It is most suitable for the RESTful web service, where the URL contains a path variable. We can define multiple @PathVariable in a method.
 
-@RequestParam: It is used to extract the query parameters form the URL. It is also known as a query parameter. 
-It is most suitable for web applications. It can specify default values if the query parameter is not present in the URL.
-@RequestHeader: It is used to get the details about the HTTP request headers. We use this annotation as a method parameter. 
-The optional elements of the annotation are name, required, value, defaultValue. For each detail in the header, we should specify separate annotations. 
-We can use it multiple time in a method
+@RequestParam: 
+1) It is used to extract the query parameters form the URL. It is also known as a query parameter. 
+2) It is most suitable for web applications. It can specify default values if the query parameter is not present in the URL.
+
+@RequestHeader: 
+1) It is used to get the details about the HTTP request headers. We use this annotation as a method parameter. 
+2) The optional elements of the annotation are name, required, value, defaultValue. For each detail in the header, we should specify separate annotations. 
+3) We can use it multiple time in a method
 
 ==================================================================================================================================================
 @RestController: 
