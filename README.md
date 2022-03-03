@@ -63,33 +63,33 @@ These annotations are used to create Spring beans automatically in the applicati
 # HTTP Methods
 For HTTP/1.1, the set of common methods are defined below. This set can be expanded based on the requirements. The name of these methods is case sensitive, and they must be used in uppercase.
 
-Method and Description
-i) GET
+#Method and Description
+#i) GET
 
 This method retrieves information from the given server using a given URI. 
 GET request can retrieve the data. It can not apply other effects on the data.
 
-ii) HEAD
+#ii) HEAD
 This method is the same as the GET method. It is used to transfer the status line and header section only.
 
-iii) POST
+#iii) POST
 
 The POST request sends the data to the server. For example, file upload, customer information, etc. using the HTML forms.
 
 
-iv) PUT
+#iv) PUT
 
 The PUT method is used to replace all the current representations of the target resource with the uploaded content.
 
-v) DELETE
+#v) DELETE
 
 The DELETE method is used to remove all the current representations of the target resource, which is given by URI.
 
-vi) CONNECT
+#vi) CONNECT
 
 This method establishes a tunnel to the server, which is identified by a given URI.
 
-vii) OPTIONS
+#vii) OPTIONS
 
 This method describes the options of communication for the target resource.
 
@@ -97,25 +97,33 @@ This method describes the options of communication for the target resource.
 =============================================================================================================================================
 # Spring and spring boot annotation:
 
-@RequestMapping: 
+#@RequestMapping: 
 
 1) It is used to map the web requests. 
 2) It has many optional elements like consumes, header, method, name, params, path, produces, and value. 
 We use it with the class as well as the method.
 
-@GetMapping: 
+#@GetMapping: 
+
 1) It maps the HTTP GET requests on the specific handler method. 
 2) It is used to create a web service endpoint that fetches It is used instead of using: @RequestMapping(method = RequestMethod.GET)
 
-@PostMapping: 
+#@PostMapping:
+ 
 1) It maps the HTTP POST requests on the specific handler method. 
 2) It is used to create a web service endpoint that creates It is used instead of using: @RequestMapping(method = RequestMethod.POST)
 
-@PutMapping: 
+#@PutMapping: 
+
 1) It maps the HTTP PUT requests on the specific handler method. 
 2) It is used to create a web service endpoint that creates or updates It is used instead of using: @RequestMapping(method = RequestMethod.PUT)
-@DeleteMapping: It maps the HTTP DELETE requests on the specific handler method. It is used to create a web service endpoint that deletes a resource. It is used instead of using: @RequestMapping(method = RequestMethod.DELETE)
-@PatchMapping: It maps the HTTP PATCH requests on the specific handler method. It is used instead of using: @RequestMapping(method = RequestMethod.PATCH)
+
+#@DeleteMapping: 
+
+It maps the HTTP DELETE requests on the specific handler method. It is used to create a web service endpoint that deletes a resource. It is used instead of using: @RequestMapping(method = RequestMethod.DELETE)
+
+#@PatchMapping: 
+It maps the HTTP PATCH requests on the specific handler method. It is used instead of using: @RequestMapping(method = RequestMethod.PATCH)
 
 
 =================================================================================================================================================
